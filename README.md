@@ -46,3 +46,5 @@ Functional Requirements:
 
 -(Optional: AI should work properly on easy and hard difficulties.)
 
+-(Optional: Instead of hard difficulties, the AI will scale with the amount of wins the player has.)
+
