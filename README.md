@@ -22,6 +22,10 @@ Functional Requirements:
 
 -The website must be able to be interacted with by the player.
 
+-Website should scale with minimization of the browser.
+
+-Game should be displayed and functional by the user.
+
 -The website should be able to keep track of the player(s) name.
 
 -Player’s name will be within 1-20 characters in length.
