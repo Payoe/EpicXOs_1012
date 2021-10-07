@@ -20,25 +20,25 @@ Additionally, the program will contain two types of game modes: a player vs play
 
 Functional Requirements:
 
-The website must be able to be interacted with by the player.
+-The website must be able to be interacted with by the player.
 
-The website should be able to keep track of the player(s) name.
+-The website should be able to keep track of the player(s) name.
 
-Player’s name will be within 1-20 characters in length.
+-Player’s name will be within 1-20 characters in length.
 
-The player will not be able to place X or O on an already placed slot.
+-The player will not be able to place X or O on an already placed slot.
 
-The leaderboard must be able to track wins for the player/AI.
+-The leaderboard must be able to track wins for the player/AI.
 
-There must be two options for the player to choose to play: PVP or PVB.
+-There must be two options for the player to choose to play: PVP or PVB.
 
-The system must be able to determine who wins, who loses, and a stalemate.
+-The system must be able to determine who wins, who loses, and a stalemate.
 
-The player should be able to play again without refreshing the page.
+-The player should be able to play again without refreshing the page.
 
-For PVB, the player should be able to select if they want to be X or O and play first or second.
+-For PVB, the player should be able to select if they want to be X or O and play first or second.
 
-The website should have a neat, non-cluttered interface for the player to use.
+-The website should have a neat, non-cluttered interface for the player to use.
 
-(Optional: AI should work properly on easy and hard difficulties.)
+-(Optional: AI should work properly on easy and hard difficulties.)
 
