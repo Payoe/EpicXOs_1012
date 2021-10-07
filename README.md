@@ -20,31 +20,24 @@ Additionally, the program will contain two types of game modes: a player vs play
 
 Functional Requirements:
 
--The website must be able to be interacted with by the player.
-
--Website should scale with minimization of the browser.
-
--Game should be displayed and functional by the user.
-
--The website should be able to keep track of the player(s) name.
-
--Player’s name will be within 1-20 characters in length.
+-During the start of the game, the player will be asked to input their name, and must be 1-20 characters long, which will be displayed during the game.
 
 -The player will not be able to place X or O on an already placed slot.
 
--The leaderboard must be able to track wins for the player/AI.
+-The player should be able to click a button to hide/unhide the leaderboard.
 
--There must be two options for the player to choose to play: PVP or PVB.
+-Game Log in order to track who's turn it is, and where the player/AI placed their X or O.
 
--The system must be able to determine who wins, who loses, and a stalemate.
+-The leaderboard tracks wins for the player/AI from the start of the game, until player leaves or refreshes the page.
 
--The player should be able to play again without refreshing the page.
+-There must be two options for the player to choose to play: PVP or PVB. Selection is made by clicking one of two buttons: PVP or PVB.
 
--For PVB, the player should be able to select if they want to be X or O and play first or second.
+-The player should be able to play again without refreshing the page, by clicking the play again button.
 
--The website should have a neat, non-cluttered interface for the player to use.
+-For PVB, the player should be able to select if they want to be X or O and play first or second by clicking button at start of the game.
 
--(Optional: AI should work properly on easy and hard difficulties.)
+-The website will have the game interface in the middle with game log below it, and the leaderboard on the right hand side.
+
+-(Optional: AI works properly on easy and hard difficulties. Selected by clicking easy or hard button.)
 
 -(Optional: Instead of hard difficulties, the AI will scale with the amount of wins the player has.)
-
