@@ -41,3 +41,15 @@ Functional Requirements:
 -(Optional: AI works properly on easy and hard difficulties. Selected by clicking easy or hard button.)
 
 -(Optional: Instead of hard difficulties, the AI will scale with the amount of wins the player has.)
+
+Wireframe Descriptions -
+
+Wireframe 1: Asks the player to enter the name they want to play with which will be displayed on the leaderboard. On top of the screen there will be a banner depicting the name of the game and at the bottom it will show the leaderboard, game log and name of the authors.
+
+Wireframe 2: On the next screen if will ask whether the user wants to play singleplayer (player vs computer) or multiplayer (player vs player). If the multiplayer option is chosen, then the second player must also enter the name they want to play under.
+
+Wireframe 3: The first player will get the option on whether they want to move first or second. After, the second player will move based on what option the first player chose.
+
+Wireframe 4: This is the screen where the game is actually played. The first player will be "O's" and the second player will "X's". It will keep asking for the players to make their turns until a winner is determined (3 of the same sign either vertically, horizontally or diagonally). The game log will also be updated according to each move made so it is clear on whos turn it is to go.
+
+Wireframe 5: Once a winner is determined, it will be outputted on the screen saying either "P1 wins", "P2 wins" or "no winner" (tie). The leaderboard on the bottom left will also be updated accordingly to track who has more overall wins.
