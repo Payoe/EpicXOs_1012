@@ -1,0 +1,94 @@
+/*Sort all the css for the html*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: NimbusSanL, Arial, sans-serif;
+  background-color: lightgray;
+}
+
+header {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 25px;
+  padding: 25px;
+  background: grey;
+}
+
+#headerText {
+  color: lightgrey;
+  background-color: grey;
+}
+
+#bigBox {
+  background-color: grey;
+  border: 1px solid grey;
+  padding: 25px;
+  margin-top: 25px;
+  height: 650px;
+}
+
+footer {
+  text-align: center;
+  background-color: grey;
+  border: 1px solid grey;
+  padding: 25px;
+  margin-top: 25px;
+  color: lightgrey;
+}
+
+span {
+  background-color: grey;
+  color: lightgrey;
+}
+
+.gameBoard {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+  width: 568px;
+  margin: auto;
+}
+
+.xoSpot {
+  border: 3px solid black;
+  padding: 85px;
+}
+
+.leaderboard {
+  background-color: lightgray;
+  width: 45%;
+  float: left;
+  padding: 10px;
+  height: 270px;
+  margin: auto;
+  border: 3px solid black;
+  margin-right: 5%;
+  margin-left: 2.7%;
+}
+
+.gameLogs {
+  background-color: lightgray;
+  width: 45%;
+  float: left;
+  padding: 10px;
+  height: 270px;
+  margin: auto;
+  border: 3px solid black;
+}
+
+#gameBoxes {
+  background-color: grey;
+  border: 1px solid grey;
+  padding: 25px;
+  margin-top: 25px;
+  height: 325px;
+}
+
+#startButton {
+  display: grid;
+  text-align: center;
+  margin: auto;
+}

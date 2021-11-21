@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--Skeleton HTML Document File for Group Project Phase 3
+    Author: Moses Luna
+    For: EECS 1012, York University, Lassonde School of Engineering-->
+<html lang="En">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Group Project Phase 3 File</title>
+    <link rel="stylesheet" type="text/css" href="TicTacToe.css" title="style" />
+    <script src="TicTacToe.js"></script>
+  </head>
+  <body>
+    <header><h1 id="headerText">Tic Tac Toe</h1></header>
+
+    <!--Box that has options and game board-->
+    <div id="bigBox">
+      <span>
+        <button id="startButton" onclick="userInput()">Click To Start</button>
+          <!--Game Board, which is a grid (Port this into js using JQuery and DOM after because it is a little inconvienient)-->
+          <div class="gameBoard">
+            <div class="xoSpot"></div>
+            <div class="xoSpot"></div>
+            <div class="xoSpot"></div>
+            <div class="xoSpot"></div>
+            <div class="xoSpot"></div>
+            <div class="xoSpot"></div>
+            <div class="xoSpot"></div>
+            <div class="xoSpot"></div>
+            <div class="xoSpot"></div>
+          </div>
+        </div>
+      </span>
+    </div>
+
+    <div id="gameBoxes">
+      <div class="leaderboard">This will contain the leaderboard</div>
+      <div class="gameLogs">This will contain the game logs</div>
+    </div>
+    
+
+    <footer>Author: <span> Moses Luna </span></footer>
+  </body>
+</html>
